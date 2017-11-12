@@ -1,0 +1,9 @@
+<?php 
+    session_start();
+	//include('admincp/modules/config.php');
+	//
+	if(isset($_GET['xem'])){
+		unset($_SESSION['dangnhap']);
+		header('location:index.php?xem=giohang');
+	}
+ ?>

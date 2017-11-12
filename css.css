@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #131313;
+}
+.wrapper{
+	width: 1000px;
+	height: auto;
+	border: 1px solid white;
+	margin: auto;
+	background: #131313;
+}
+.header{
+	width: 100%;
+	height: 120px;
+	border: 1px solid white;
+}
+/*phan menu*/
+.menu{
+	width: 100%;
+	height: 30px;
+	border: 1px solid white;
+}
+.menu ul{
+	width: 100%;
+	height: 30px;
+	list-style: none;
+}
+.menu ul li {
+	float: left;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.menu ul li a{
+	margin-left: 40px;
+	color: #fae68b;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+/*menu phu*/
+.menu_phu{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid white;
+}
+/*phan content*/
+.content{
+	width: 100%;
+	height:auto;
+	border: 1px solid white;
+}
+/*phan content left*/
+.left{
+	width: 200px;
+	height: auto;
+	border: 1px solid white;
+	float: left;
+}
+/*phan content right*/
+.right{
+	width: 790px;
+	height: auto;
+	border: 1px solid white;
+	float: right;
+}
+/*danh muc sanpham*/
+.danhmucsanpham ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.danhmucsanpham ul li{
+	margin-left: 10px;
+	margin: 5px;
+}
+.danhmucsanpham ul li a{
+    text-decoration: none;
+    color: red;
+}
+.danhmucsanpham a:hover{
+	text-decoration: underline;
+}
+/*tinhnangsanpham*/
+.tinhnangsanpham{
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.tinhnangsanpham ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.tinhnangsanpham ul li{
+	margin-left: 10px;
+	margin: 5px;
+}
+.tinhnangsanpham ul li a{
+    text-decoration: none;
+    color: red;
+}
+.tinhnangsanpham a:hover{
+	text-decoration: underline;
+}
+
+/*sanphamall*/
+.sanphamall ul{
+  /* width: 120px;
+   list-style: none;
+   margin-top: 1px;*/
+    width: 200px;
+    list-style: none;
+    margin-top: 1px;
+}
+.sanphamall ul li{
+	/*width: 120px;*/
+	/*height: auto;
+	border: 1px solid white;
+	float: left;
+	margin-left: 5px;*/
+	width: 120px;
+    height: auto;
+    border: 1px solid white;
+    float: left;
+    margin-left: 5px;
+}
+.sanphamall ul li a{
+	float: left;
+	text-decoration: none;
+	padding-top: 2px;
+}
+/*phan clear*/
+.clear{
+	clear: both;
+}
+/*phan footer*/
+.footer{
+	width: 100%;
+	height: 80px;
+	border: 1px solid white;
+}
+ 
